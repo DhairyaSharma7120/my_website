@@ -1,0 +1,45 @@
+body{
+
+	background-image: url("../image/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+
+.navbar ul li a{
+
+font-family: 'Nunito Sans', sans-serif;
+color: black;		
+font-size: 150%;
+font-weight: bold;
+transition: 0.3s;
+border-left: 2px solid rgba(0,0,0,0);
+border-right: 2px solid rgba(0,0,0,0);
+transition: 0.5s;
+}
+
+.navbar ul li a:hover
+{
+	
+	border-left: 1.8px solid black;
+	border-right: 1.8px solid black;
+
+}
+
+/*.linkhover::after
+{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: black;
+	transition: width 0.3s;
+
+}
+
+.linkhover:hover::after {
+	width: 100%;
+	transition: width 0.3s;
+}*/
